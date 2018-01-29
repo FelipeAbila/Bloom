@@ -1,0 +1,29 @@
+/*LOGO*/
+.main_logo{position: relative; width: 250px; height: 100px; }
+.main_logo a{position: absolute; width: 250px; height: 85px; background: url(../img/logo.png) center center no-repeat; }
+.main_logo a:hover{background-color: #222;}
+.main_main .text_main{float: left; width: 40%; padding: 10px;}
+.main_main .image-main{float: right; width: 55%; padding-left: 25px; margin-top: 20px;}
+@media only screen and (max-width: 1000px){
+    .main_main{text-align: center;}
+    .main_main .text_main{float: none; margin: auto; margin-top: 20px; text-align: center;}
+    .main_main .image-main{float: none; padding:0; margin: auto;}
+    
+    .main_nav ul{display: none; height: 30px;}
+    .main_nav .img-header{display: block; position: absolute; top: 75px; right: 50px;}
+    .cjn-box{width: 45%;}
+    .cjn-box img:last-of-type{margin-top: 20px;}
+}
+
+/*MENU NAV*/
+.img-header{display: none;}
+.main_nav ul{width: auto; margin-top: 30px;}
+.main_nav li{float: left;}
+.main_nav a{color: #fbfbfb; font-weight: bold; padding: 10px 20px; cursor: pointer; display: inline-block;}
+.main_nav a:hover{text-decoration: underline;}
+
+
+
+
+
+

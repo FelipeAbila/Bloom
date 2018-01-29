@@ -1,0 +1,82 @@
+*, *:before, *:after{
+    outline: 0;
+    margin: 0;
+    padding:0;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    
+    line-height: 1.5;
+    letter-spacing: 0em;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{background-color: #fbfbfb; color: #333;}
+h1{font-size: 2em; font-weight: 300;}
+h2{font-size: 1.8em; font-weight: 400;}
+h3{font-size: 1.5em; font-weight: 500;}
+p{margin-bottom: 15px;}
+ul{list-style: none;}
+img{max-width: 100%; border: none; vertical-align: middle;}
+a{text-decoration: none;}
+a img{border: none;}
+
+/*BACKGROUNDS*/
+.bg-grayblack{background-color: #292626; color: #efe7e7;}
+.bg-cleargray{background-color: #f3efef; color: #111;}
+
+/*FONT WEIGHT*/
+.font-thin{font-weight: 200;}
+.font-light{font-weight: 300;}
+.font-normal{font-weight: 400;}
+.font-bold{font-weight: 500;}
+.font-full{font-weight: 700;}
+
+/*FONT SIZE*/
+.fontzero{font-size: 0em;}
+.fontsize1{font-size: 1em;}
+.fontsize1b{font-size: 1.5em;}
+.fontsize2{font-size: 2em;}
+.fontsize2b{font-size: 2.5em;}
+
+/*CONTAINER*/
+.container{float: left; width: 100%;}
+.content{width: 80%; margin: 0 10%; padding: 40px 0;}
+
+/*HELPERS*/
+.radius{border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.last{margin-right: 0 !important;}
+.clear{clear: both;}
+
+/*TEXT ALIGN*/
+.al-center{text-align: center;}
+.al-left{text-align: left;}
+.al-right{text-align: right;}
+
+/*FLOATS*/
+.fl-none{float: none;}
+.fl-left{float: left;}
+.fl-right{float: right;}
+
+/*BOXES*/
+.box{width: auto; float: left;}
+
+.box-small{width: 22.75% ; margin-right: 3%;}  /*4*/
+.box-medium{width: 30%; margin-right: 5%;} /*3*/
+.box-large{width: 46.5%; margin-right: 7% ;} /*2*/
+.box-full{width: 100%; margin: 0;} /*1*/
+
+/*BOTÕES*/
+.btn{display: inline-block; padding: 3px 20px; background-color: #333; color: #fff; border: 1px solid #555;  cursor: pointer; font-size: 1em; font-weight: 400; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow:  inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -webkit-box-shadow:  inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);}
+.btn:hover{}
+
+.btn-orange{background-color: #ed8e47; border-color:#f1a873 ;}
+.btn-orange:hover{background-color: #e86f16 ; border-color: #ec8c45;}
+
+
+
+
+
